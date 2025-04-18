@@ -6,15 +6,6 @@ import SkipPage from "./components/SkipPage";
 import { useNavigate } from "react-router-dom";
 
 function App() {
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const redirectPath = sessionStorage.redirect;
-    if (redirectPath) {
-      sessionStorage.removeItem("redirect");
-      navigate(redirectPath);
-    }
-  }, [navigate]);
   return (
     <div>
       <Routes>
