@@ -11,8 +11,8 @@ import { MdOutlineCreditCard } from "react-icons/md";
 
 const Dashboard = () => {
   return (
-    <div className=" max-w-7xl mx-auto px-4 py-8 text-lg text-white p-8 ">
-      <ul className="flex justify-around shrink flex-wrap gap-4">
+    <div className="   px-4 py-8 text-lg text-white p-8 ">
+      <ul className="flex mx-auto max-w-7xl justify-around shrink flex-wrap gap-4">
         <NavLink
           to="/1"
           className={({ isActive }) =>
